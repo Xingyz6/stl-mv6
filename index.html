@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>第二天 — Somebody to Love</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="stage">
+  <div id="frame">
+    <canvas id="cv" width="1600" height="900"></canvas>
+    <div id="sub" class="sub"><div id="en" class="en"></div><div id="zh" class="zh"></div></div>
+  </div>
+  <div id="bar" class="bar">
+    <button id="play" class="btn"></button>
+    <div class="track"><div id="fill" class="fill"></div><div id="head" class="head"></div></div>
+    <div id="clock" class="clock">0:00 / 4:57</div>
+  </div>
+  <div id="gate" class="gate">
+    <div class="gate-in">
+      <div class="kicker">QUEEN · 1976</div>
+      <h1>第二天</h1>
+      <p>闹钟响的时候，他已经醒了。</p>
+      <button id="start">开始播放</button>
+      <div class="hint">戴耳机 · 全屏</div>
+    </div>
+  </div>
+</div>
+<audio id="audio" src="audio/song.mp3" preload="auto"></audio>
+<script src="js/data.js"></script>
+<script src="js/world.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
